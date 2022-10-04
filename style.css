@@ -14,9 +14,60 @@ body {
     width: 86.48%;
 }
 
+li {
+    list-style: none;
+    background-color: #F5F5F5;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
 /*header*/
 h1 {
     text-align: center;
     font-size: 40px;
     margin: 40px;
+}
+
+/*main*/
+
+/*top*/
+.top .inner {
+    background: url(./images/bg_main.png) 50% 50%/cover;
+    padding-top: 240px;
+    padding-bottom: 80px;
+}
+
+h2 {
+    width: 343px;
+    background-color: #fff;
+    font-size: 36px;
+    padding: 40px;
+}
+
+/*DISCUSSION*/
+h3 {
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.DISCUSSION p {
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px;
+    width: 93.75%;
+}
+
+.DISCUSSION ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.DISCUSSION a {
+    color: #1E1E1E;
+    text-decoration: none;
 }
