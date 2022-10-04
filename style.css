@@ -5,10 +5,18 @@ body {
     color: #1E1E1E;
     line-height: 1.7;
     font-size: 14px;
+    font-weight: normal;
 }
 
 .inner {
     margin-left: auto;
     margin-right: auto;
     width: 86.48%;
+}
+
+/*header*/
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin: 40px;
 }
